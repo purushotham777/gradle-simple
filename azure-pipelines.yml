@@ -22,7 +22,7 @@ steps:
     tasks: 'build'
     checkStyleRunAnalysis: 
     # Gradle
-- task: PublishBuildArtifacts@2
+- task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'reddy'
